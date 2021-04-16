@@ -1,14 +1,38 @@
 {
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   },
   "resources" : [
+    {
+      "filename" : "bulba.arreferenceimage"
+    },
+    {
+      "filename" : "charizard.arreferenceimage"
+    },
+    {
+      "filename" : "chiko.arreferenceimage"
+    },
+    {
+      "filename" : "dzigli.arreferenceimage"
+    },
     {
       "filename" : "eevee-card.arreferenceimage"
     },
     {
+      "filename" : "meow.arreferenceimage"
+    },
+    {
       "filename" : "oddish-card.arreferenceimage"
+    },
+    {
+      "filename" : "pikachu.arreferenceimage"
+    },
+    {
+      "filename" : "psajdak.arreferenceimage"
+    },
+    {
+      "filename" : "raichu.arreferenceimage"
     }
   ]
 }

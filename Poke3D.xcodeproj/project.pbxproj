@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		AD4A425A2101F95900BA7CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A42592101F95900BA7CDB /* AppDelegate.swift */; };
 		AD4A425C2101F95900BA7CDB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4A425B2101F95900BA7CDB /* art.scnassets */; };
-		AD4A425E2101F95900BA7CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A425D2101F95900BA7CDB /* ViewController.swift */; };
 		AD4A42612101F95900BA7CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4A425F2101F95900BA7CDB /* Main.storyboard */; };
 		AD4A42632101F95B00BA7CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4A42622101F95B00BA7CDB /* Assets.xcassets */; };
 		AD4A42662101F95B00BA7CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4A42642101F95B00BA7CDB /* LaunchScreen.storyboard */; };
+		B6740F3A25A25C3B00AC40E9 /* dziglipesma.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6740F3925A25C3A00AC40E9 /* dziglipesma.wav */; };
+		B6740F3F25A25CFF00AC40E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6740F3E25A25CFF00AC40E9 /* ViewController.swift */; };
+		B6740F4525A25FE600AC40E9 /* pikacu.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6740F4425A25FE600AC40E9 /* pikacu.wav */; };
+		B6740F4925A260F400AC40E9 /* raichuQ.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6740F4825A260F400AC40E9 /* raichuQ.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD4A42562101F95900BA7CDB /* Poke3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poke3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4A42592101F95900BA7CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD4A425B2101F95900BA7CDB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		AD4A425D2101F95900BA7CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD4A42602101F95900BA7CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD4A42622101F95B00BA7CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4A42652101F95B00BA7CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD4A42672101F95B00BA7CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6740F3925A25C3A00AC40E9 /* dziglipesma.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dziglipesma.wav; sourceTree = "<group>"; };
+		B6740F3E25A25CFF00AC40E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6740F4125A25EA500AC40E9 /* eevee.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = eevee.scn; sourceTree = "<group>"; };
+		B6740F4225A25EA900AC40E9 /* oddish.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = oddish.scn; sourceTree = "<group>"; };
+		B6740F4425A25FE600AC40E9 /* pikacu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pikacu.wav; sourceTree = "<group>"; };
+		B6740F4825A260F400AC40E9 /* raichuQ.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = raichuQ.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +65,27 @@
 			isa = PBXGroup;
 			children = (
 				AD4A42592101F95900BA7CDB /* AppDelegate.swift */,
+				B6740F3E25A25CFF00AC40E9 /* ViewController.swift */,
 				AD4A425B2101F95900BA7CDB /* art.scnassets */,
-				AD4A425D2101F95900BA7CDB /* ViewController.swift */,
+				B6740F4125A25EA500AC40E9 /* eevee.scn */,
+				B6740F4225A25EA900AC40E9 /* oddish.scn */,
+				B6740F3825A25C2E00AC40E9 /* Zvukovi */,
 				AD4A425F2101F95900BA7CDB /* Main.storyboard */,
 				AD4A42622101F95B00BA7CDB /* Assets.xcassets */,
 				AD4A42642101F95B00BA7CDB /* LaunchScreen.storyboard */,
 				AD4A42672101F95B00BA7CDB /* Info.plist */,
 			);
 			path = Poke3D;
+			sourceTree = "<group>";
+		};
+		B6740F3825A25C2E00AC40E9 /* Zvukovi */ = {
+			isa = PBXGroup;
+			children = (
+				B6740F3925A25C3A00AC40E9 /* dziglipesma.wav */,
+				B6740F4825A260F400AC40E9 /* raichuQ.wav */,
+				B6740F4425A25FE600AC40E9 /* pikacu.wav */,
+			);
+			path = Zvukovi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +150,10 @@
 				AD4A425C2101F95900BA7CDB /* art.scnassets in Resources */,
 				AD4A42662101F95B00BA7CDB /* LaunchScreen.storyboard in Resources */,
 				AD4A42632101F95B00BA7CDB /* Assets.xcassets in Resources */,
+				B6740F4525A25FE600AC40E9 /* pikacu.wav in Resources */,
+				B6740F3A25A25C3B00AC40E9 /* dziglipesma.wav in Resources */,
 				AD4A42612101F95900BA7CDB /* Main.storyboard in Resources */,
+				B6740F4925A260F400AC40E9 /* raichuQ.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD4A425E2101F95900BA7CDB /* ViewController.swift in Sources */,
+				B6740F3F25A25CFF00AC40E9 /* ViewController.swift in Sources */,
 				AD4A425A2101F95900BA7CDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,13 +312,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 26UTNQQ7M5;
 				INFOPLIST_FILE = Poke3D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.londonappbrewery.Poke3D;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonji2n2rwwewery.Poke3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +330,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 26UTNQQ7M5;
 				INFOPLIST_FILE = Poke3D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.londonappbrewery.Poke3D;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonji2n2rwwewery.Poke3D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
